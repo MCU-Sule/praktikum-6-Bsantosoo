@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Budi Santoso 2072026">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;1,300&display=swap" rel="stylesheet">
+        <title>Soal 02</title>
+
+        <style>
+
+            .header{
+                font-family: 'Mulish', sans-serif;
+                text-align: center;
+                font-size: 30px;
+                color: #3d3d8e;
+            }
+            body{
+                background-image: url("background.jpg");
+                background-size: cover;
+            }
+            .col {
+                color: #88939b;
+                margin: auto;
+                width: 20%;
+                font-size: 15px;
+                text-align: left;
+                padding: 35px;
+                height: 700px;
+                font-family: 'Mulish', sans-serif;
+            }
+            .col2 {
+                color: #88939b;
+                margin: auto;
+                width: 20%;
+                font-size: 15px;
+                text-align: left;
+                padding: 35px;
+                height: 700px;
+                font-family: 'Mulish', sans-serif;
+            }
+            .text{
+                text-align: center;
+                font-size: 25px;
+                color: #314652;
+            }
+            .text2{
+                color: #6968bf;
+                font-size: 15px;
+            }
+            .row:after {
+                content: "";
+                display: grid;
+                clear: both;
+            }
+            input[type=text1] {
+                color: #88939b;
+                width: 100%;
+                padding: 10px 2px;
+                border: none;
+                background-color: rgba(200, 214, 229,0.8);
+                border-bottom: 1px solid #88939b;
+            }
+            input[type=text2] {
+                color: #88939b;
+                width: 100%;
+                padding: 10px 2px;
+                border: none;
+                background-color: rgba(220, 221, 225,0.8);;
+                border-bottom: 1px solid #88939b;
+            }
+            input[type=date] {
+                color: #88939b;
+                width: 100%;
+                padding: 10px 1px;
+                border: none;
+                background-color: rgba(220, 221, 225,0.8);;
+                border-bottom: 1px solid #88939b;
+            }
+            .teng{
+                text-align: center;
+            }
+            .btn1 {
+                border: none;
+                padding: 14px 28px;
+                font-size: 15px;
+                cursor: pointer;
+                display: inline-block;
+                background-color: #2ed573;
+                border-radius: 30px;
+                transition: 0.3s;
+            }
+            .btn1:hover {background: #38ada9;}
+
+            button .sign { display: none; }
+            button:hover .reg { display: none; }
+            button:hover .sign { display: inline; }
+
+            .btn2 {
+                border: none;
+                padding: 14px 28px;
+                font-size: 16px;
+                cursor: pointer;
+                display: inline-block;
+                background-color: #38ada9;
+                border-radius: 30px;
+            }
+            .btn2:hover {background: #2ed573;}
+
+            input[type="radio"] {
+                margin-left: 2px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="header"><b>Fill in this form</b></div>
+        <br>
+        <div class="row">
+            <div class="col" style="background-color:  rgba(200, 214, 229,0.8);">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="text"><i style="text-align: center;"><b>Sign In</b></i></div>
+                <br>
+                <h>Email</h1>
+                <input type="text1" value="nrp@maranatha.ac.id">
+                <br>
+                <br>
+                <br>
+                <h>Password</h1>
+                <input type="text1">
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="teng">
+                    <button class="btn1">
+                        <span class="sign">Register</span>
+                        <span class="reg">Sign in</span>
+                    </button>
+                    <br>
+                    <div class="text2">forgot password?</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col2" style="background-color: rgba(220, 221, 225,0.8);">
+                <div class="text"><i style="text-align: center;"><b>Register</b></i></div>
+                <br>
+                <br>
+                <h>Name</h1>
+                <input type="text2">
+                <br>
+                <br>
+                <h>Email</h1>
+                <input type="text2">
+                <br>
+                <br>
+                <h>Date of Birth</h1>
+                <input type="date">
+                <br>
+                <br>
+                <h>Address</h1>
+                <input type="text2">
+                <br>
+                <br>
+                <h>Gender</h1>
+                <br>
+                <input type="radio" name="option" id="option">Male &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="option" id="option">Female
+                <br>
+                <br>
+                <h>Hobby</h1>
+                <br>
+                <input type="checkbox" name="option">Singing 
+                <br>
+                <input type="checkbox" name="option">Playing
+                <br>
+                <input type="checkbox" name="option">Ngoding
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="teng">
+                    <button class="btn2">
+                        <span class="reg">Register</span>
+                        <span class="sign">Sign in</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
